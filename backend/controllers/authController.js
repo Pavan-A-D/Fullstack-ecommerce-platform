@@ -44,9 +44,7 @@ const login = async (req, res) => {
     // Find user by email
     const user = await User.findOne({ email });
 
-    // if (user && (await user.matchPassword(password)))  if used hashing
-    // Plain text password comparison
-    if (user && user.password === password) {
+     if (user && (await user.matchPassword(password))) {
       res.json({
         _id: user._id,
         name: user.name,
