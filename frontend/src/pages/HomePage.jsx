@@ -67,7 +67,7 @@ const HomePage = () => {
               className="glass-card rounded-xl p-5 text-center hover:border-primary-500/30 transition-all group"
             >
               <div className="text-3xl mb-3">
-                {cat === 'Electronics' ? '🔌' : cat === 'Clothing' ? '👕' : cat === 'Accessories' ? '👜' : cat === 'Footwear' ? '👟' : '🏠'}
+                {cat === 'Sports' ? '🏏' : cat === 'Electronics' ? '🔌' : cat === 'Clothing' ? '👕' : cat === 'Accessories' ? '👜' : cat === 'Footwear' ? '👟' : '🏠'}
               </div>
               <h3 className="font-medium text-surface-200 text-sm group-hover:text-primary-400 transition-colors">{cat}</h3>
               <p className="text-xs text-surface-700 mt-1">{products.filter((p) => p.category === cat).length} items</p>
