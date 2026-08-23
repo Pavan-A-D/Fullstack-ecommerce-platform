@@ -12,6 +12,20 @@ A simple full-stack e-commerce project built with Node.js, Express, MongoDB, and
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose
 - **Frontend**: React 19, Vite, Tailwind CSS
 
+## Screenshots
+
+### Products
+![Products](screenshots/products.png)
+
+### Cart
+![Cart Page](screenshots/cart.png)
+
+### Checkout
+![Checkout](screenshots/checkout.png)
+
+### Admin
+![Admin](screenshots/admin.png)
+
 
 ## Getting Started
 
