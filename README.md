@@ -1,4 +1,4 @@
-# E-Commerce Platform
+# ShopVerse - E-Commerce Platform
 
 A simple full-stack e-commerce project built with Node.js, Express, MongoDB, and React. It features JWT-based authentication, basic product browsing/filtering, a shopping cart, and checkout/order tracking.
 
